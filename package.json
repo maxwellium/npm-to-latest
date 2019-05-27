@@ -1,5 +1,5 @@
 {
-  "name": "npm-to-latest",
+  "name": "to-latest",
   "version": "1.0.0",
   "description": "produce commands to update your dependencies to the latest version",
   "main": "index.js",
@@ -9,6 +9,6 @@
   "author": "maxwellium",
   "license": "MIT",
   "bin": {
-    "npm-to-latest": "./index.js"
+    "to-latest": "./index.js"
   }
 }
