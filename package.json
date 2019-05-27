@@ -1,0 +1,14 @@
+{
+  "name": "npm-to-latest",
+  "version": "1.0.0",
+  "description": "produce commands to update your dependencies to the latest version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maxwellium",
+  "license": "MIT",
+  "bin": {
+    "npm-to-latest": "./index.js"
+  }
+}
