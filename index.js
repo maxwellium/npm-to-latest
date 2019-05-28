@@ -14,7 +14,7 @@ readFile( join( process.cwd(), 'package.json' ), 'utf8', ( err, data ) => {
 
   if ( devDependencies ) {
     console.log( '# devDependencies' );
-    console.log( `npm i -S ${ Object.keys( devDependencies ).map( d => `${ d }@latest` ).join( ' ' ) }` );
+    console.log( `npm i -D ${ Object.keys( devDependencies ).map( d => `${ d }@latest` ).join( ' ' ) }` );
   }
 
 } );
